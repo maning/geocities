@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<worldkitconf>
+	<width>800</width>
+	<height>400</height>
+	<displaytype>day</displaytype>
+        <dayimg>day.jpg</dayimg>        
+        <nightimg>night.jpg</nightimg>
+	<dataurl>bird.xml</dataurl>
+	<update>0</update>
+        <initialplotcolor>0xFFFF66</initialplotcolor>
+        <restingplotcolor>0xFFFF66</restingplotcolor>
+        <initialzoom>10</initialzoom>
+	<initiallong>122.57</initiallong>
+	<initiallat>12.4183</initiallat> 
+	<showonlynew>false</showonlynew>
+        <showload>true</showload>
+        <plotinterval>0</plotinterval>
+        <plotshape>square
+	<CR>circle</CR>
+	<EN>triangle</EN>	
+	</plotshape>
+	<toolbar>true</toolbar>
+	<grabber>true</grabber>
+        <maxscale>100000</maxscale>
+        <maximgload>40</maximgload>
+	<wms
+id="landsat">http://onearth.jpl.nasa.gov/wms.cgi?request=GetMap&layers=global_mosaic,worldwind_dem&styles=,purple haze&sld=sample.sld&srs=EPSG:4326&format=image/jpeg</wms>
+    
+</worldkitconf>
